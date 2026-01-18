@@ -8,7 +8,7 @@ import Contact from "./Contact";
 const Navigations = () => {
   return (
     <div>
-        <BrowserRouter>
+        <BrowserRouter basename='/contact'>
         <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/about' element={<About/>}></Route>

@@ -1,9 +1,13 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const Home = () => {
 
     const navigate = useNavigate();
+
+    const location = useLocation();
+
+    console.log(location);
 
     const handleNavigate = () => {
         navigate("/About");

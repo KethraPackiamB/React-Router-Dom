@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Navigation from './Memory-Router/Navigation';
+import Navigations from './Browser-Router/Navigations';
+import RoutingPages from './UseParams/RoutingPages';
 
 function App() {
   return (
     <div>
-        <Navigation/>
+        {/* <Navigations/> */}
+        <RoutingPages/>
     </div>
   );
 }

@@ -7,7 +7,7 @@ import Contact from "./Contact";
 const Navigations = () => {
   return (
     <div>
-        <MemoryRouter>
+        <MemoryRouter initialEntries={["/about"]}>
             <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/about' element={<About/>}></Route>
